@@ -9,5 +9,5 @@ def jobsheduling(n,jobs):
             else:
                 d -= 1
     return slots
-    
-print(jobsheduling(2, [['J1',100,1],['J2',120,3],['J3',40,2]]))
+jobs = [ ['J1',100,2], ['J2',19,1], ['J3',87,2], ['J4',25,1], ['J5',15,1]]
+print(jobsheduling(2, jobs))
